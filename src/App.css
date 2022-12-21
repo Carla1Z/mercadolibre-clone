@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --bkg: #ededed;
+  --bkg-table1: #ebebeb;
+  --bkg-table2: #f5f5f5;
+  --family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif;
+  --white: #ffffff;
+  --text1: rgb(0, 0, 0, 0.9);
+  --text2: rgb(0, 0, 0, 0.5);
+  --blue: #2968c8;
+  --blue-btn1: #3483fa;
+  --blue-btn2: rgb(65, 137, 230, 0.15);
+  --green: #00a650;
+}
