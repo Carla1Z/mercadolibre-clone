@@ -17,3 +17,9 @@
   --blue-btn2: rgb(65, 137, 230, 0.15);
   --green: #00a650;
 }
+
+.App{
+  background-color: var(--bkg);
+  min-height: 100vh;
+  font-family: var(--family);
+}
