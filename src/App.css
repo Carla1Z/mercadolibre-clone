@@ -6,6 +6,7 @@
 
 :root {
   --bkg: #ededed;
+  --bkg-yellow: #fff159;
   --bkg-table1: #ebebeb;
   --bkg-table2: #f5f5f5;
   --family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif;
@@ -18,7 +19,7 @@
   --green: #00a650;
 }
 
-.App{
+.App {
   background-color: var(--bkg);
   min-height: 100vh;
   font-family: var(--family);

@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+    background-color: var(--bkg-yellow);
+}
+
+.wrapper {
+  width: 87%;
+  margin: 0 auto;
+  background-color: var(--white);
+}
