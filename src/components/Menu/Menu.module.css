@@ -1,0 +1,15 @@
+.menu{
+    width: 615px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text2);
+    font-size: 14px;
+}
+
+.list li{
+    cursor: pointer;
+}
