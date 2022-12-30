@@ -1,0 +1,29 @@
+.useraddress {
+  display: flex;
+  cursor: pointer;
+  padding: 0px 8px;
+  border-radius: 4px;
+  top: 52px;
+  left: 1px;
+  padding-top: 2px;
+}
+
+.useraddress:hover {
+  border: 1px solid var(--text2);
+}
+
+.icon {
+  color: var(--textblack);
+  font-size: 23px;
+  margin-right: 2px;
+}
+
+.user {
+  font-size: 12px;
+  color: var(--text2);
+}
+
+.address {
+  font-size: 14px;
+  color: var(--textblack);
+}
