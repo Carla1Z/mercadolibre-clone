@@ -6,17 +6,44 @@
 .form {
   width: 100%;
   display: flex;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
 }
 
 .input {
   border: none;
-  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  /* box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%); */
   height: 39px;
   width: 92.4%;
+  padding: 7px 60px 9px 15px;
+  font-size: 16px;
+  color: #333333;
+  font-weight: 300;
+  font-family: var(--family);
+}
+
+.input::placeholder{
+  color: #d2d2d2;
 }
 
 .search {
   height: 39px;
   width: 7.6%;
   font-size: 16px;
+  line-height: 21px;
+  position: relative;
+  left: auto;
+  background-image: none;
+  background-color: var(--white);
+  padding-top: 2px;
+  cursor: pointer;
+  border: none;
+}
+
+.search::before {
+  content: "";
+  display: block;
+  height: 26px;
+  border-left: 1px solid #e6e6e6;
+  position: absolute;
+  top: 6.5px;
 }

@@ -5,7 +5,7 @@ function SearchBar() {
   return (
     <div className={styles.searchbar}>
       <form action="" className={styles.form}>
-        <input type="text" className={styles.input} />
+        <input type="text" className={styles.input} placeholder="Buscar productos, marcas y más..." />
         <button className={styles.search}>
           <TfiSearch />
         </button>
