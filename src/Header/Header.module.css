@@ -1,19 +1,29 @@
-.header{
-    width: 1200px;
-    height: 91px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 8px;
+.header {
+  width: 1200px;
+  height: 91px;
+  margin: 0 auto;
+  display: grid;
 }
 
-.logo{
-    width: 133px;
-    height: 33px;
-    cursor: pointer;
+.headersearch {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
 }
 
-.disney{
-    width: 340px;
-    height: 43px;
+.logo {
+  width: 133px;
+  height: 33px;
+  cursor: pointer;
+}
+
+.disney {
+  width: 340px;
+  height: 43px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
