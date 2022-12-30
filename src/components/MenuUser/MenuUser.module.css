@@ -1,0 +1,19 @@
+.menuuser {
+  width: 307px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: var(--text1);
+  font-size: 14px;
+}
+
+.list li {
+  cursor: pointer;
+}
+
+.user {
+  display: flex;
+}
