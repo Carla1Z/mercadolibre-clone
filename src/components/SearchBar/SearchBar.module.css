@@ -1,0 +1,22 @@
+.searchbar {
+  width: 600px;
+  padding-left: 16px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+}
+
+.input {
+  border: none;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  height: 39px;
+  width: 92.4%;
+}
+
+.search {
+  height: 39px;
+  width: 7.6%;
+  font-size: 16px;
+}

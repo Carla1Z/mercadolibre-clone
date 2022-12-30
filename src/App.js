@@ -1,5 +1,5 @@
 import './App.css';
-import Layout from './components/Layout';
+import Layout from './Layout';
 
 function App() {
   return (

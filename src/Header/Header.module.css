@@ -1,0 +1,18 @@
+.header{
+    width: 1200px;
+    height: 91px;
+    margin: 0 auto;
+    /* padding: 0 0 0 160px; */
+    display: flex;
+}
+
+.logo{
+    width: 133px;
+    height: 33px;
+    cursor: pointer;
+}
+
+.disney{
+    width: 340px;
+    height: 43px;
+}
