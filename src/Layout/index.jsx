@@ -1,7 +1,7 @@
 import React from "react";
 import NavList from "../components/NavList";
-import Product from "../components/Product";
 import Header from "../Header";
+import Product from "../Product";
 import styles from "./Layout.module.css";
 
 function Layout() {
