@@ -1,6 +1,7 @@
 .navlist {
   display: flex;
   font-size: 14px;
+  margin: 12px 0;
 }
 
 .back {
