@@ -1,0 +1,43 @@
+.navlist {
+  display: flex;
+  font-size: 14px;
+}
+
+.back {
+  margin-right: 25px;
+  color: var(--textblack);
+}
+
+.back:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.back::after {
+  content: "|";
+  /* color: rgba(0,0,0,.2); */
+  color: var(--textblack);
+  position: relative;
+  right: -14px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list li {
+  color: var(--blue-btn1);
+  display: flex;
+}
+
+.list li:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.list li:not(:last-child)::after {
+  content: ">";
+  color: var(--textblack);
+  padding: 0 6px;
+}
