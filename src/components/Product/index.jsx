@@ -1,8 +1,8 @@
-import React from 'react'
+import styles from "./Product.module.css"
 
 function Product() {
   return (
-    <div>Product</div>
+    <div className={styles.product}>Product</div>
   )
 }
 
