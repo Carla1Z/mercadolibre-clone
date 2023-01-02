@@ -1,0 +1,6 @@
+.column{
+    margin-left: 48px;
+    max-width: 368px;
+    width: 368px;
+    border: 1px solid red;
+}
