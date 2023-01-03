@@ -10,15 +10,15 @@ function ColumnOne() {
   return (
     <div className={styles.column}>
       <Gallery />
-      <br/>
+      <hr/>
       <OtherItems /> 
-      <br/>
+      <hr/>
       <Characteristics />
-      <br/>
+      <hr/>
       <Description />
-      <br/>
+      <hr/>
       <Questions />
-      <br/>
+      <hr/>
       <Reviews />
       </div>
   )
