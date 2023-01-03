@@ -1,0 +1,18 @@
+.gallery{
+    border: 1px solid mediumorchid;
+    display: flex;
+    margin-bottom: 68px;
+    width: 100%;
+}
+
+.image{
+    width: 700px;
+    height: 500px;
+    border: 1px solid red;
+}
+
+.small{
+    width: 70px;
+    height: 70px;
+    border: 1px solid red;
+}
