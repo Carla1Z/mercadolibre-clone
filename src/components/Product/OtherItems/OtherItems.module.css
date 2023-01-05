@@ -24,3 +24,12 @@
   width: 222px;
   height: 379.375px;
 }
+
+.more{
+    color: var(--blue-btn1);
+    font-size: 14px;
+}
+
+.more:hover{
+    color: var(--blue);
+}

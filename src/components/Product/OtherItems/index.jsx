@@ -15,6 +15,7 @@ function OtherItems() {
           <img src="" alt="card" />
         </div>
       </div>
+      <p className={styles.more}>Ver más publicaciones del vendedor</p>
     </div>
   );
 }
