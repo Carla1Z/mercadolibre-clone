@@ -1,6 +1,8 @@
 .otheritems {
   margin-left: 50px;
   width: 718px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 40px 0;
 }
 
 .title {
@@ -25,11 +27,11 @@
   height: 379.375px;
 }
 
-.more{
-    color: var(--blue-btn1);
-    font-size: 14px;
+.more {
+  color: var(--blue-btn1);
+  font-size: 14px;
 }
 
-.more:hover{
-    color: var(--blue);
+.more:hover {
+  color: var(--blue);
 }
