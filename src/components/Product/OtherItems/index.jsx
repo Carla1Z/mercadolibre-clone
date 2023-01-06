@@ -17,7 +17,7 @@ function OtherItems() {
         </div>
         <div className={styles.card}>
           <div className={styles.image}>
-            <img src="https://images.pexels.com/photos/6358515/pexels-photo-6358515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="card" />
+            <img src="https://media.istockphoto.com/id/1397240229/es/foto/boda.jpg?s=612x612&w=0&k=20&c=FJ11MwNSqeWGo7Vw4I80BKZADL0ZuuBdS-VEKXY1Hto=" alt="card" />
           </div>
           <div className={styles.info}>
             <h4>$3500</h4>
@@ -27,7 +27,7 @@ function OtherItems() {
         </div>
         <div className={styles.card}>
           <div className={styles.image}>
-            <img src="https://images.unsplash.com/photo-1602751584581-2e0372975b46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=777&q=80" alt="card" />
+            <img src="https://media.istockphoto.com/id/686175324/es/vector/de-anillo.jpg?s=612x612&w=0&k=20&c=zU8yDYSux924gKm3jpX2lc6DLeBZtPZShYy1u10E3OQ=" alt="card" />
           </div>
           <div className={styles.info}>
             <h4>$3500</h4>

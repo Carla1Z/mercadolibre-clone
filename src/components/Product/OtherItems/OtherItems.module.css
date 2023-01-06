@@ -37,10 +37,10 @@
 }
 
 .image img {
-  height: 99%;
-  width: 99%;
+  height: 98%;
+  width: 98%;
   /* width: 75%; */
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .info {
