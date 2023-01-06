@@ -4,3 +4,15 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 40px 0;
 }
+
+.title {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.text{
+  color: #666;
+  font-size: 20px;
+  font-weight: 400;
+}
