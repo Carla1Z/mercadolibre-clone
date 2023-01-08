@@ -4,3 +4,40 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 40px 0;
 }
+
+.title {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.questionsubtitle {
+  margin-top: 40px;
+}
+
+.subtitle {
+  font-weight: 600;
+  padding-bottom: 8px;
+  font-size: 18px;
+  color: var(--text1);
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  margin-top: 12px;
+}
+
+.list li {
+  margin-right: 12px;
+  margin-top: 8px;  
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--blue-btn2);
+  color: var(--blue-btn1);
+  border-radius: 5px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+  cursor: pointer;
+}
