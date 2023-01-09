@@ -44,6 +44,13 @@
   margin-right: 20px;
 }
 
+.divider{
+  background-color: #e8e8ec;
+  height: 1px;
+  margin-top: 24px;
+  width: 97%;
+}
+
 .headercomment {
   display: flex;
   justify-content: space-between;

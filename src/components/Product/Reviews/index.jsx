@@ -67,6 +67,7 @@ function Reviews() {
                 <SlOptionsVertical />
               </button>
             </span>
+            <div className={styles.divider} />
             <span className={styles.review}>
               <div className={styles.headercomment}>
                 <ReactStars
@@ -92,6 +93,7 @@ function Reviews() {
                 <SlOptionsVertical />
               </button>
             </span>
+            <div className={styles.divider} />
             <span className={styles.review}>
               <div className={styles.headercomment}>
                 <ReactStars
@@ -117,6 +119,7 @@ function Reviews() {
                 <SlOptionsVertical />
               </button>
             </span>
+            <p className={styles.more}>Mostrar todas las opiniones</p>
           </div>
         </div>
       </div>
