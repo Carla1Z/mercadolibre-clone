@@ -47,7 +47,8 @@ function Reviews() {
                 <ReactStars
                   count={5}
                   value={3}
-                  size={24}
+                  size={20}
+                  char={<AiFillStar />}
                   edit={false}
                   color2={"#3483fa"}
                 />
@@ -73,7 +74,8 @@ function Reviews() {
                 <ReactStars
                   count={5}
                   value={3}
-                  size={24}
+                  size={20}
+                  char={<AiFillStar />}
                   edit={false}
                   color2={"#3483fa"}
                 />
@@ -99,7 +101,8 @@ function Reviews() {
                 <ReactStars
                   count={5}
                   value={3}
-                  size={24}
+                  size={20}
+                  char={<AiFillStar />}
                   edit={false}
                   color2={"#3483fa"}
                 />
