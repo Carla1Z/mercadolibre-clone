@@ -29,7 +29,7 @@ function Reviews() {
                 <AiFillStar />
               </option>
               <option>
-                  3<AiFillStar />
+                3<AiFillStar />
               </option>
               <option>
                 2
@@ -43,13 +43,16 @@ function Reviews() {
           </div>
           <div className={styles.reviewsection}>
             <span className={styles.review}>
-              <ReactStars
-                count={5}
-                value={3}
-                size={24}
-                edit={false}
-                color2={"#3483fa"}
-              />
+              <div className={styles.headercomment}>
+                <ReactStars
+                  count={5}
+                  value={3}
+                  size={24}
+                  edit={false}
+                  color2={"#3483fa"}
+                />
+                <p className={styles.date}>06 jul. 2021</p>
+              </div>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
               similique atque quod at architecto, ex totam ut, vero assumenda,
               incidunt quo dolores quam provident. Aut quo fugiat nihil saepe
@@ -65,13 +68,16 @@ function Reviews() {
               </button>
             </span>
             <span className={styles.review}>
-              <ReactStars
-                count={5}
-                value={3}
-                size={24}
-                edit={false}
-                color2={"#3483fa"}
-              />
+              <div className={styles.headercomment}>
+                <ReactStars
+                  count={5}
+                  value={3}
+                  size={24}
+                  edit={false}
+                  color2={"#3483fa"}
+                />
+                <p className={styles.date}>06 jul. 2021</p>
+              </div>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
               similique atque quod at architecto, ex totam ut, vero assumenda,
               incidunt quo dolores quam provident. Aut quo fugiat nihil saepe
@@ -87,13 +93,16 @@ function Reviews() {
               </button>
             </span>
             <span className={styles.review}>
-              <ReactStars
-                count={5}
-                value={3}
-                size={24}
-                edit={false}
-                color2={"#3483fa"}
-              />
+              <div className={styles.headercomment}>
+                <ReactStars
+                  count={5}
+                  value={3}
+                  size={24}
+                  edit={false}
+                  color2={"#3483fa"}
+                />
+                <p className={styles.date}>06 jul. 2021</p>
+              </div>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
               similique atque quod at architecto, ex totam ut, vero assumenda,
               incidunt quo dolores quam provident. Aut quo fugiat nihil saepe
