@@ -11,17 +11,36 @@
   margin-bottom: 24px;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: space-between;
 }
 
-.rating{
+.rating {
   width: 220px;
   height: 200px;
   background-color: var(--blue);
 }
 
-.userreview{
+.userreview {
   max-width: 466px;
 }
+
+.order{
+  margin-bottom: 25px;
+}
+
+.order select {
+  background-color: var(--blue-btn2);
+  color: var(--blue-btn1);
+  border: transparent;
+  border-radius: 53px;
+  padding: 0 24px;
+  font-family: var(--family);
+  font-size: 14px;
+  font-weight: 600;
+  height: 32px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+

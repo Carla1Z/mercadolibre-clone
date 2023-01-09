@@ -13,12 +13,12 @@ function Reviews() {
         <div className={styles.userreview}>
           <div className={styles.order}>
             <select>
-              Ordenar
+              <option hidden>Ordernar</option>
               <option>Mas útiles</option>
               <option>Más recientes</option>
             </select>
             <select>
-              Calificación
+              <option hidden>Calificación</option>
               <option>Todas</option>
               <option>
                 5
