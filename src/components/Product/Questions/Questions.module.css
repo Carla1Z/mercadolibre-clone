@@ -30,7 +30,7 @@
 
 .list li {
   margin-right: 12px;
-  margin-top: 8px;  
+  margin-top: 8px;
   font-size: 14px;
   font-weight: 500;
   background-color: var(--blue-btn2);
@@ -40,4 +40,55 @@
   line-height: 32px;
   padding: 0 12px;
   cursor: pointer;
+}
+
+.qa {
+  margin-top: 40px;
+}
+
+.makequestion {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.form {
+  margin-top: 16px;
+  width: 718px;
+  height: 48px;
+}
+
+.form input {
+  height: 100%;
+  font-family: var(--family);
+}
+
+.text {
+  width: 549px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 15px 12px 13px 16px;
+  border: 1.5px solid rgba(0, 0, 0, 0.3);
+  color: var(--text1);
+}
+
+.text:focus-visible {
+  outline: none;
+  border: 2px solid var(--blue-btn1);
+}
+
+.button {
+  width: 152px;
+  border-radius: 6px;
+  margin-left: 16px;
+  background-color: var(--blue-btn1);
+  color: var(--white);
+  border-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--blue);
 }

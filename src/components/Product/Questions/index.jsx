@@ -13,12 +13,12 @@ function Questions() {
           <li>Garantía</li>
         </ul>
       </div>
-      <div className="qa">
-        <label>
-          Preguntale al vendedor
-          <input type="text" />
-          <input type="submit" value="Preguntar" />
-        </label>
+      <div className={styles.qa}>
+        <p className={styles.makequestion}>Preguntale al vendedor</p>
+        <form className={styles.form}>
+          <input type="text" placeholder="Escribí tu pregunta..." className={styles.text} />
+          <input type="submit" value="Preguntar" className={styles.button} />
+        </form>
       </div>
       <div className={styles.container}>
         <h3>Últimas realizadas</h3>
