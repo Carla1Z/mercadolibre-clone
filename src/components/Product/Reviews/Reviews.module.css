@@ -44,7 +44,7 @@
   margin-right: 20px;
 }
 
-.divider{
+.divider {
   background-color: #e8e8ec;
   height: 1px;
   margin-top: 24px;
@@ -55,4 +55,68 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.date{
+  font-size: 12px;
+  color: var(--text2);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.like {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #c4c4c4;
+  border-radius: 53px;
+  color: rgba(0, 0, 0, 0.55);
+  height: 32px;
+  margin-right: 5px;
+  padding: 0 11px;
+}
+
+.dislike {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #c4c4c4;
+  border-radius: 53px;
+  color: rgba(0, 0, 0, 0.55);
+  height: 32px;
+  width: 32px;
+  margin-right: 5px;
+}
+
+.like:hover,
+.dislike:hover {
+  background-color: var(--blue-btn2);
+  border: 1px solid var(--blue-btn1);
+  color: var(--blue-btn1);
+}
+
+.option {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgba(128, 128, 128, 0.568);
+  height: 32px;
+  width: 32px;
+  font-size: 16px;
+}
+
+.more {
+  background-color: transparent;
+  border: none;
+  color: var(--blue-btn1);
+  cursor: pointer;
+  font-size: 14px;
+  margin: 36px 0 20px;
+  padding: 0;
+}
+
+.more:hover{
+  color: var(--blue);
 }

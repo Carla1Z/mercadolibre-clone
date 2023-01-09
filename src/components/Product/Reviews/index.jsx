@@ -58,15 +58,21 @@ function Reviews() {
               similique atque quod at architecto, ex totam ut, vero assumenda,
               incidunt quo dolores quam provident. Aut quo fugiat nihil saepe
               in!
-              <button>
-                Es útil <BsHandThumbsUp /> 8
-              </button>
-              <button>
-                <BsHandThumbsDown />
-              </button>
-              <button>
-                <SlOptionsVertical />
-              </button>
+              <div className={styles.buttons}>
+                <div>
+                  <button className={styles.like}>
+                    Es útil <BsHandThumbsUp /> 8
+                  </button>
+                  <button className={styles.dislike}>
+                    <BsHandThumbsDown />
+                  </button>
+                </div>
+                <div>
+                  <button className={styles.option}>
+                    <SlOptionsVertical />
+                  </button>
+                </div>
+              </div>
             </span>
             <div className={styles.divider} />
             <span className={styles.review}>
@@ -85,15 +91,21 @@ function Reviews() {
               similique atque quod at architecto, ex totam ut, vero assumenda,
               incidunt quo dolores quam provident. Aut quo fugiat nihil saepe
               in!
-              <button>
-                Es útil <BsHandThumbsUp /> 8
-              </button>
-              <button>
-                <BsHandThumbsDown />
-              </button>
-              <button>
-                <SlOptionsVertical />
-              </button>
+              <div className={styles.buttons}>
+                <div>
+                  <button className={styles.like}>
+                    Es útil <BsHandThumbsUp /> 8
+                  </button>
+                  <button className={styles.dislike}>
+                    <BsHandThumbsDown />
+                  </button>
+                </div>
+                <div>
+                  <button className={styles.option}>
+                    <SlOptionsVertical />
+                  </button>
+                </div>
+              </div>
             </span>
             <div className={styles.divider} />
             <span className={styles.review}>
@@ -112,15 +124,21 @@ function Reviews() {
               similique atque quod at architecto, ex totam ut, vero assumenda,
               incidunt quo dolores quam provident. Aut quo fugiat nihil saepe
               in!
-              <button>
-                Es útil <BsHandThumbsUp /> 8
-              </button>
-              <button>
-                <BsHandThumbsDown />
-              </button>
-              <button>
-                <SlOptionsVertical />
-              </button>
+              <div className={styles.buttons}>
+                <div>
+                  <button className={styles.like}>
+                    Es útil <BsHandThumbsUp /> 8
+                  </button>
+                  <button className={styles.dislike}>
+                    <BsHandThumbsDown />
+                  </button>
+                </div>
+                <div>
+                  <button className={styles.option}>
+                    <SlOptionsVertical />
+                  </button>
+                </div>
+              </div>
             </span>
             <p className={styles.more}>Mostrar todas las opiniones</p>
           </div>
