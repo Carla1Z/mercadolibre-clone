@@ -49,6 +49,7 @@
 .makequestion {
   font-size: 18px;
   font-weight: 600;
+  color: var(--text1);
 }
 
 .form {
@@ -91,4 +92,29 @@
 
 .button:hover {
   background-color: var(--blue);
+}
+
+.container {
+  margin-top: 40px;
+}
+
+.lastquestions {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--text1);
+}
+
+.containerquestions {
+  margin-top: 24px;
+}
+
+.userquestion{
+  color: black;
+  margin-top: 24px;
+}
+
+.answer{
+  color: grey;
+  margin-left: 12px;
+  margin-top: 8px;
 }
