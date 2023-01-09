@@ -4,3 +4,24 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 40px 0;
 }
+
+.title {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating{
+  width: 220px;
+  height: 200px;
+  background-color: var(--blue);
+}
+
+.userreview{
+  max-width: 466px;
+}
