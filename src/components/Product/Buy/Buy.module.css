@@ -1,7 +1,54 @@
-.buy{
-    border: 1px solid rgba(0,0,0,.1);
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 16px;
-    width: 100%;
+.buy {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 16px;
+  width: 100%;
+}
+
+.headerInfo {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  margin-right: 40px;
+  /* white-space: pre-wrap; */
+}
+
+.rating {
+  display: flex;
+  color: var(--blue-btn1);
+  align-items: center;
+}
+
+.rating p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.title {
+  display: flex;
+  align-items: flex-start;
+}
+
+.title h1 {
+  color: var(--text1);
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-right: 28px;
+}
+
+.title button {
+  /* height: 22px;
+    width: 22px; */
+  font-size: 27px;
+  color: var(--blue-btn1);
+  background-color: transparent;
+  border: transparent;
+}
+
+.highlights {
+  display: flex;
 }
