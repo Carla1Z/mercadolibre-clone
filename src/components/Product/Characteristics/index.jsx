@@ -23,18 +23,32 @@ function Characteristics() {
         </tr>
       </table>
       <h3 className={styles.subtitle}>Otras características</h3>
-      <ul>
-        <li>aaa</li>
-        <li>bbb</li>
-      </ul>
-      <ul>
-        <li>aaa</li>
-        <li>bbb</li>
-      </ul>
-      <ul>
-        <li>aaa</li>
-        <li>bbb</li>
-      </ul>
+      <div className={styles.othercharacteristics}>
+        <ul>
+          <li>
+            <span className={styles.negrita}>Tipo de anillo:</span> Solitario
+          </li>
+          <li>
+            <span className={styles.negrita}>Estilos:</span> solitario+,con oro
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <span className={styles.negrita}>Con piedra:</span> Sí
+          </li>
+          <li>
+            <span className={styles.negrita}>Tipos de piedras:</span> cubic
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <span className={styles.negrita}>Pureza del metal:</span> 925
+          </li>
+          <li>
+            <span className={styles.negrita}>Edad:</span> Adultos
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

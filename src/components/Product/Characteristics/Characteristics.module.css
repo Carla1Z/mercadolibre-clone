@@ -45,3 +45,27 @@
   padding-bottom: 24px;
   font-weight: 400;
 }
+
+.othercharacteristics{
+  color: var(--text1);
+}
+
+.othercharacteristics ul {
+  list-style: none;
+  display: flex;
+  font-size: 14px;
+}
+
+.othercharacteristics ul li {
+  padding-right: 24px;
+  padding-bottom: 12px;
+  width: 50%;
+}
+
+.othercharacteristics ul li:nth-child(even) {
+  margin-left: 50px;
+}
+
+.negrita{
+  font-weight: 500;
+}
