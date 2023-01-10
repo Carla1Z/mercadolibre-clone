@@ -2,5 +2,6 @@
     margin-left: 48px;
     max-width: 368px;
     width: 368px;
-    border: 1px solid red;
+    padding-right: 16px;
+    /* border: 1px solid red; */
 }
