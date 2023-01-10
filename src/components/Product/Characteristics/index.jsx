@@ -4,22 +4,22 @@ function Characteristics() {
   return (
     <div className={styles.characteristics}>
       <h2 className={styles.title}>Características principales</h2>
-      <table>
+      <table className={styles.table}>
         <tr>
           <th>Fabricante</th>
           <td>Carla</td>
         </tr>
         <tr>
-          <th>Fabricante</th>
+          <th>Marca</th>
           <td>Carla</td>
         </tr>
         <tr>
-          <th>Fabricante</th>
-          <td>Carla</td>
+          <th>Modelo</th>
+          <td>Anillo con oro y plata</td>
         </tr>
         <tr>
-          <th>Fabricante</th>
-          <td>Carla</td>
+          <th>Material</th>
+          <td>Oro y plata</td>
         </tr>
       </table>
       <h3 className={styles.subtitle}>Otras características</h3>

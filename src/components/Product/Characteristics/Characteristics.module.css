@@ -11,7 +11,35 @@
   margin-bottom: 24px;
 }
 
-.subtitle{
+.table {
+  width: 718px;
+  height: 216px;
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--text1);
+  overflow: hidden;
+  border-radius: 5px;
+  border-collapse: collapse;
+  border: 1px solid var(--bkg);
+  background-color: var(--bkg-table1);
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: var(--bkg-table2);
+}
+
+.table tr th {
+  padding-left: 16px;
+  font-weight: 500;
+}
+
+.table tr td {
+  background-color: var(--white);
+  padding: 16px 16px 16px 24px;
+}
+
+.subtitle {
   font-size: 20px;
   margin-top: 32px;
   padding-bottom: 24px;
